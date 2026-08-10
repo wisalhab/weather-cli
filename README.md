@@ -34,3 +34,39 @@ cd weather-cli
 
 ### 2. Create your ``` .env ``` file
 Inside the project folder, create a file named ``` .env ``` :
+
+``` Code
+API_KEY=your_openweathermap_api_key_here
+```
+
+This file is not tracked by Git and stays private.
+
+##Usage
+Run the script with a city name:
+```Bash
+python weather.py Beirut
+```
+Example output: 
+``` Code
+Temperature: 30°C
+Humidity: 65%
+Weather: Clear sky
+```
+
+##Project Structure
+```
+weather-cli/
+│
+├── weather.py
+├── .gitignore
+├── requirements.txt
+└── README.md
+```
+
+##Notes
+Your API key must be valid for the script to work.
+
+``` .env ``` is intentionally excluded from GitHub for security.
+
+Anyone cloning your repo must create their own ``` .env ``` file.
+
