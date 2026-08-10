@@ -63,7 +63,7 @@ weather-cli/
 └── README.md
 ```
 
-## Notes
+## Notes 
 Your API key must be valid for the script to work.
 
 ``` .env ``` is intentionally excluded from GitHub for security.
