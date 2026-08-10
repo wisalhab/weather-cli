@@ -41,7 +41,7 @@ API_KEY=your_openweathermap_api_key_here
 
 This file is not tracked by Git and stays private.
 
-##Usage
+## Usage
 Run the script with a city name:
 ```Bash
 python weather.py Beirut
